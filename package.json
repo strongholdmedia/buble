@@ -1,6 +1,6 @@
 {
-  "name": "buble",
-  "version": "0.19.7",
+  "name": "@outright/buble",
+  "version": "100.19.7",
   "description": "The blazing fast, batteries-included ES2015 compiler",
   "main": "dist/buble.cjs.js",
   "module": "dist/buble.es.js",
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bublejs/buble.git"
+    "url": "git+https://github.com/strongholdmedia/buble.git"
   },
   "keywords": [
     "javascript",
@@ -49,9 +49,9 @@
   "author": "Rich Harris",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bublejs/buble/issues"
+    "url": "https://github.com/strongholdmedia/buble/issues"
   },
-  "homepage": "https://github.com/bublejs/buble#README",
+  "homepage": "https://github.com/strongholdmedia/buble#README",
   "devDependencies": {
     "console-group": "^0.3.3",
     "eslint": "^4.19.1",
@@ -78,5 +78,8 @@
     "minimist": "^1.2.0",
     "os-homedir": "^1.0.1",
     "regexpu-core": "^4.5.4"
+  },
+  "directories": {
+    "test": "test"
   }
 }
